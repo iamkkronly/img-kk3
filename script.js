@@ -73,7 +73,7 @@ document.getElementById('downloadBtn').addEventListener('click', () => {
     ctx.textAlign = "right";
     ctx.fillText("© Kaustav Ray", tempImg.width - 10, tempImg.height - 10);
     const link = document.createElement('a');
-    link.download = 'gemini_image_with_copyright.png';
+    link.download = 'Kaustav_copyright.png';
     link.href = canvas.toDataURL();
     link.click();
   };
