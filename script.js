@@ -46,11 +46,11 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
       error.classList.remove('hidden');
     }
 
-    text.textContent = txt.trim() || "Gemini is silent this time.";
+    text.textContent = txt.trim() || "Kaustav is silent this time.";
 
   } catch (e) {
     console.error(e);
-    errMsg.textContent = `❌ ${e.message || "Something went wrong"}`;
+    errMsg.textContent = `❌ ${"Something went wrong"}`;
     error.classList.remove('hidden');
   }
 });
